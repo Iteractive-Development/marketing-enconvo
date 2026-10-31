@@ -1,0 +1,119 @@
+{
+  "repos": [
+    {
+      "path": "/Users/bradhallett/Projects/Agent Plugins/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "rel": "../marketingskills"
+    }
+  ],
+  "adapter_dir": "/Users/bradhallett/Projects/Agent Plugins/marketing-enconvo",
+  "workspace": "/Users/bradhallett/Projects/Agent Plugins",
+  "prefix": "marketing",
+  "plugin_name": "marketing-enconvo",
+  "marketplace_name": "marketing-enconvo",
+  "category": "marketing",
+  "marketplace_description": "Marketing for Enconvo: strategy, content, SEO, paid, CRO, measurement, growth, sales, and retention - all 52 skills in one updatable plugin. Built from coreyhaines31/marketingskills (MIT). By Iteractive Development.",
+  "owner": {
+    "name": "Iteractive Development",
+    "url": "https://iteractive.dev"
+  },
+  "groups": {
+    "strategy": {
+      "skills": [
+        "marketing-plan",
+        "marketing-ideas",
+        "marketing-psychology",
+        "product-marketing",
+        "customer-research",
+        "offers",
+        "pricing",
+        "launch",
+        "marketing-council"
+      ]
+    },
+    "content": {
+      "skills": [
+        "copywriting",
+        "copy-editing",
+        "cold-email",
+        "emails",
+        "social",
+        "image",
+        "content-strategy",
+        "video",
+        "sms"
+      ]
+    },
+    "seo": {
+      "skills": [
+        "seo-audit",
+        "ai-seo",
+        "link-building",
+        "programmatic-seo",
+        "site-architecture",
+        "competitors",
+        "competitor-profiling",
+        "schema",
+        "aso",
+        "directory-submissions"
+      ]
+    },
+    "paid": {
+      "skills": [
+        "ads",
+        "ad-creative",
+        "influencer-marketing",
+        "events",
+        "public-relations"
+      ]
+    },
+    "cro": {
+      "skills": [
+        "cro",
+        "signup",
+        "onboarding",
+        "popups",
+        "paywalls"
+      ]
+    },
+    "measurement": {
+      "skills": [
+        "analytics",
+        "conversion-tracking",
+        "attribution",
+        "ab-testing"
+      ]
+    },
+    "growth": {
+      "skills": [
+        "marketing-loops",
+        "referrals",
+        "community-marketing",
+        "co-marketing",
+        "lead-magnets",
+        "free-tools"
+      ],
+      "catch_all": true
+    },
+    "sales": {
+      "skills": [
+        "prospecting",
+        "revops",
+        "sales-enablement"
+      ]
+    },
+    "retention": {
+      "skills": [
+        "churn-prevention"
+      ]
+    }
+  },
+  "flatten": true,
+  "agents": {
+    "enabled": true,
+    "title_prefix": "Marketing"
+  },
+  "plugin_title": "Marketing",
+  "plugin_category": "Business & Operations",
+  "plugin_icon": "/Users/bradhallett/Projects/Agent Plugins/.enconvo/assets/marketing-icon.png"
+}
