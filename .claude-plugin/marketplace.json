@@ -1,0 +1,22 @@
+{
+  "name": "marketing-enconvo",
+  "owner": {
+    "name": "Iteractive Development",
+    "url": "https://iteractive.dev"
+  },
+  "description": "Marketing for Enconvo: strategy, content, SEO, paid, CRO, measurement, growth, sales, and retention - all 52 skills in one updatable plugin. Built from coreyhaines31/marketingskills (MIT). By Iteractive Development.",
+  "plugins": [
+    {
+      "name": "marketing-enconvo",
+      "source": "./marketplace/plugins/marketing-enconvo",
+      "description": "Marketing skills for AI agents \u2014 conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
+      "author": {
+        "name": "Corey Haines"
+      },
+      "category": "marketing",
+      "keywords": [
+        "marketing"
+      ]
+    }
+  ]
+}
