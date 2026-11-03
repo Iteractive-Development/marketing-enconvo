@@ -1,0 +1,21 @@
+{
+  "name": "marketing-enconvo",
+  "version": "1.0.0",
+  "description": "Marketing skills for AI agents \u2014 conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
+  "author": {
+    "name": "Iteractive Development"
+  },
+  "homepage": "https://iteractive.dev",
+  "license": "MIT",
+  "agents": [
+    "agents/content.md",
+    "agents/cro.md",
+    "agents/growth.md",
+    "agents/measurement.md",
+    "agents/paid.md",
+    "agents/retention.md",
+    "agents/sales.md",
+    "agents/seo.md",
+    "agents/strategy.md"
+  ]
+}

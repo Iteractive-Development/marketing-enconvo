@@ -3,7 +3,6 @@ name: ad-creative
 description: "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'creative testing,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' 'static ads,' 'ad templates,' 'iMessage ad,' 'ChatGPT ad,' 'creative strategy,' 'creative roadmap,' 'creative retro,' 'hook writing,' 'creative review page,' 'motion video ad,' 'faceless video ad,' 'UGC ad,' 'greenscreen ad,' 'TikTok/Reels ad format,' 'Meta ad format tier list,' or 'creative format taxonomy.' Use it to produce or iterate ad copy at scale. Copy avoids AI tells like 'it's not X, it's Y' reveals. For campaign strategy and targeting, see ads. For landing page copy, see copywriting. Test hypotheses must be falsifiable, naming the metric, the comparison, and the expected direction."
 metadata:
   version: 2.12.2
-visibility: scoped
 ---
 
 # Ad Creative
@@ -444,7 +443,7 @@ For pulling performance data and managing campaigns, see the [tools registry](ht
 
 ```bash
 # 1. Pull recent ad performance
-node tools/clis/google-ads.js reports get --type ad_performance --date-range last_30_days
+node "${CLAUDE_PLUGIN_ROOT}/tools/clis/google-ads.js" reports get --type ad_performance --date-range last_30_days
 
 # 2. Analyze output (identify top/bottom performers)
 # 3. Feed winning patterns into this skill

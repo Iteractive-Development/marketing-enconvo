@@ -1,13 +1,13 @@
 {
   "repos": [
     {
-      "path": "/Users/bradhallett/Projects/Agent Plugins/marketingskills",
+      "path": "../../../Projects/Agent Plugins/marketingskills",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "rel": "../marketingskills"
     }
   ],
-  "adapter_dir": "/Users/bradhallett/Projects/Agent Plugins/marketing-enconvo",
-  "workspace": "/Users/bradhallett/Projects/Agent Plugins",
+  "adapter_dir": "../../../Projects/Agent Plugins/marketing-enconvo",
+  "workspace": "../../../Projects/Agent Plugins",
   "prefix": "marketing",
   "plugin_name": "marketing-enconvo",
   "marketplace_name": "marketing-enconvo",
@@ -115,5 +115,5 @@
   },
   "plugin_title": "Marketing",
   "plugin_category": "Business & Operations",
-  "plugin_icon": "/Users/bradhallett/Projects/Agent Plugins/.enconvo/assets/marketing-icon.png"
+  "plugin_icon": "../../../Projects/Agent Plugins/.enconvo/assets/marketing-icon.png"
 }
